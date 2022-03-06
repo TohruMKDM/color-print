@@ -7,7 +7,7 @@ lit install TohruMKDM/color-print
 ```
 Using [git](https://git-scm.com/):
 ```
-https://github.com/TohruMKDM/color-print.git
+git clone https://github.com/TohruMKDM/color-print.git
 ```
 ## Syntax
 `[r,g,b;r,g,b](string)`
