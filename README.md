@@ -18,7 +18,7 @@ Values default to 0
 local cp = require('color-print')
 
 -- Print a red 'Hello World!' to stdout.
-cp('[255,0,0](Hello World)!')
+cp('[255,0,0](Hello World!)')
 
 -- Default values, this does the same thing as the previous call.
 cp('[255](Hello World!)')
