@@ -1,5 +1,6 @@
 # color-print
 A simple function that allows you to print text with colors to terminal.
+
 ## Installation
 Using [lit](https://luvit.io/lit.html):
 ```
@@ -9,10 +10,12 @@ Using [git](https://git-scm.com/):
 ```
 git clone https://github.com/TohruMKDM/color-print.git
 ```
+
 ## Syntax
 `[r,g,b;r,g,b](string)`
 The first set of rgb values controls the foreground and the second set controls the background.
 Values default to 0
+
 ## Example
 ```lua
 local cp = require('color-print')
