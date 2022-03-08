@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1
+- Fix issue in package.lua (thanks lit)
+
 ## 2.0.0
 - Rewrote the package
 - Added `dump` to aid in printing large tables
