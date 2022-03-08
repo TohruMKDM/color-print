@@ -72,5 +72,10 @@ color_print.print('[255,0,0;0,255,0](Hello World!)')
 -- Colors red, green, and blue are pre-set.
 color_print.print('[red](This text will be red)')
 color_print.print('[green](This text will be green)')
-color_print.print()
+color_print.print('[blue](This text will be blue)')
+-- New formatter
+print(color_print.formatter.bold('This text will be bold'))
+-- Registers the color yellow as 254, 221, 0
+color_print.colorizer:setColor('yellow', '254,221,0')
+color_print.print('[yellow](This text will be yellow)')
 ```
