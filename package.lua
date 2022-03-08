@@ -6,5 +6,5 @@ return {
     license = 'MIT',
     author = {name = 'Tohru~ (トール)', email = 'admin@ikaros.pw'},
     homepage = 'https://github.com/TohruMKDM/color-print',
-    files = {'*.lua'}
+    files = {'**.lua'}
 }
