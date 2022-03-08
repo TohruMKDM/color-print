@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.2
+- Made formatter a callable table. `formatter.bold('example') == formatter('bold', 'example')`
+
 ## 2.0.1
 - Fix issue in package.lua (thanks lit)
 
